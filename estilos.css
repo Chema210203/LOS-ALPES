@@ -1,0 +1,157 @@
+/* # es para las "id"
+. es para "class"
+*/
+
+body {
+    background-color: lightgray;
+
+}
+
+.titulo {
+    color: rgb(107, 36, 71);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 170%;
+}
+
+.texto{
+    padding: 6px;
+    color: green;
+
+}
+
+#ubicacion{
+    margin-right: 3cm;
+    color: green;
+}
+
+.hipervinculos{
+    text-align: right;
+    margin: 25px;
+    color: black;
+
+}
+
+.foto{
+    padding: 5px;
+    margin-left: 30px;
+    float: center;
+    width: 250px;
+
+}
+
+#barra{
+    color: darkmagenta;
+}
+
+.correo{
+    color: green;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 28px;
+    border: 0px solid #000000;
+    border-radius: 23px;
+    background: #000000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#ffdd00));
+    background: -moz-linear-gradient(top, #000000, #ffdd00);
+    background: linear-gradient(to bottom, #000000, #ffdd00);
+    -webkit-box-shadow: #000000 0px 0px 40px 0px;
+    -moz-box-shadow: #000000 0px 0px 40px 0px;
+    box-shadow: #000000 0px 0px 40px 0px;
+    text-shadow: #000000 -0px 0px 0px;
+    font: normal normal bold 18px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.boton_blanco{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1px 10px;
+    border: 2px solid #000000;
+    border-radius: 60px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-box-shadow: #706770 0px 3px 0px 0px;
+    -moz-box-shadow: #706770 0px 3px 0px 0px;
+    box-shadow: #706770 0px 3px 0px 0px;
+    text-shadow: #ffffff -8px 0px 0px;
+    font: normal normal bold 20px tahoma;
+    color: #111111;
+    text-decoration: none;
+}
+
+.barra_lateral_izq{
+    width: 16cm;
+    text-align: center;
+    padding-bottom: 2cm;
+
+}
+
+.margen_texto {
+    color: green;
+    padding-right: 10cm;
+
+}
+
+.barra_amarilla {
+    color: yellow;
+    width: 75%;
+    size: 25%;
+    height: 15%;
+}
+
+#tabla_ciudades{
+    margin-left: 10cm;
+}
+
+.texto_localizacion{
+    text-align: center;
+    color: green;
+    font-size: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto_viajesAmedida{
+    color: green;
+    text-align: center;
+    font-size: 1cm;
+    display: grid;
+}
+
+.ciudades_ofertas{
+    color: red;
+    margin-left: 13cm;
+}
+
+#horario{
+    color: green;
+}
+
+.texto_ofertas{
+    text-align: left;
+    margin-right: auto;
+    padding-top: 1%;    
+    color: green;
+    font-size: xx-large;
+}
+
+.tabla_superoferta_titulo{
+    color: red;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.texto_final{
+    color: green;
+    font-size: xx-large;
+}
